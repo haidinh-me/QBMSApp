@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="/qt/qml/BMSApp/">
+    <file alias="Main.qml">F:/Document/Qt Practical/BMSApp/Main.qml</file>
+    <file alias="qml/components/AppCard.qml">F:/Document/Qt Practical/BMSApp/qml/components/AppCard.qml</file>
+    <file alias="qml/components/AppShell.qml">F:/Document/Qt Practical/BMSApp/qml/components/AppShell.qml</file>
+    <file alias="qml/components/BatteryCellBar.qml">F:/Document/Qt Practical/BMSApp/qml/components/BatteryCellBar.qml</file>
+    <file alias="qml/components/BottomTabBar.qml">F:/Document/Qt Practical/BMSApp/qml/components/BottomTabBar.qml</file>
+    <file alias="qml/components/InfoPair.qml">F:/Document/Qt Practical/BMSApp/qml/components/InfoPair.qml</file>
+    <file alias="qml/views/DashboardView.qml">F:/Document/Qt Practical/BMSApp/qml/views/DashboardView.qml</file>
+    <file alias="qml/views/PacksView.qml">F:/Document/Qt Practical/BMSApp/qml/views/PacksView.qml</file>
+    <file alias="qml/views/SettingsView.qml">F:/Document/Qt Practical/BMSApp/qml/views/SettingsView.qml</file>
+    <file alias="qml/components/Gauge.qml">F:/Document/Qt Practical/BMSApp/qml/components/Gauge.qml</file>
+    <file alias="qml/components/ValueTile.qml">F:/Document/Qt Practical/BMSApp/qml/components/ValueTile.qml</file>
+  </qresource>
+</RCC>
+

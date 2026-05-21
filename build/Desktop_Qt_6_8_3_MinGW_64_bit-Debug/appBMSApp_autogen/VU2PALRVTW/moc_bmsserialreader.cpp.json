@@ -1,0 +1,86 @@
+{
+    "classes": [
+        {
+            "className": "BmsSerialReader",
+            "enums": [
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "TransportErrorCode",
+                    "values": [
+                        "PortOpenFailed",
+                        "PortClosed",
+                        "WriteFailed",
+                        "ResourceLost",
+                        "ReadFailed"
+                    ]
+                }
+            ],
+            "lineNumber": 10,
+            "object": true,
+            "qualifiedClassName": "BmsSerialReader",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "frame",
+                            "type": "QByteArray"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "frameReceived",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "connected",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "connectionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "code",
+                            "type": "BmsSerialReader::TransportErrorCode"
+                        },
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        },
+                        {
+                            "name": "recoverable",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "transportErrorOccurred",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "index": 3,
+                    "name": "onReadyRead",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "bmsserialreader.h",
+    "outputRevision": 68
+}

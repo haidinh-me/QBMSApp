@@ -1,0 +1,22 @@
+--bare
+-I
+F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug
+-I
+C:/Qt/6.8.3/mingw_64/qml
+--resource
+F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qmake_BMSApp.qrc
+--resource
+F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/appBMSApp_raw_qml_0.qrc
+--resource
+F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/appBMSApp_raw_qml_0_extra_qmldirs.qrc
+F:/Document/Qt Practical/BMSApp/Main.qml
+F:/Document/Qt Practical/BMSApp/qml/components/AppCard.qml
+F:/Document/Qt Practical/BMSApp/qml/components/AppShell.qml
+F:/Document/Qt Practical/BMSApp/qml/components/BatteryCellBar.qml
+F:/Document/Qt Practical/BMSApp/qml/components/BottomTabBar.qml
+F:/Document/Qt Practical/BMSApp/qml/components/InfoPair.qml
+F:/Document/Qt Practical/BMSApp/qml/views/DashboardView.qml
+F:/Document/Qt Practical/BMSApp/qml/views/PacksView.qml
+F:/Document/Qt Practical/BMSApp/qml/views/SettingsView.qml
+F:/Document/Qt Practical/BMSApp/qml/components/Gauge.qml
+F:/Document/Qt Practical/BMSApp/qml/components/ValueTile.qml

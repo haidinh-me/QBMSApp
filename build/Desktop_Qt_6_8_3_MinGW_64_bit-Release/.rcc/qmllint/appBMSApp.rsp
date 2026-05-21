@@ -1,0 +1,10 @@
+--bare
+-I
+F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Release
+-I
+C:/Qt/6.8.3/mingw_64/qml
+--resource
+F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Release/.qt/rcc/qmake_BMSApp.qrc
+--resource
+F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Release/.qt/rcc/appBMSApp_raw_qml_0.qrc
+F:/Document/Qt Practical/BMSApp/Main.qml

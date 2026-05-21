@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/BMSApp">
+    <file alias="qmldir">F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Release/BMSApp/qmldir</file>
+  </qresource>
+</RCC>
+

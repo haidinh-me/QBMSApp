@@ -1,0 +1,5 @@
+module BMSApp
+typeinfo appBMSApp.qmltypes
+prefer :/qt/qml/BMSApp/
+Main 254.0 Main.qml
+

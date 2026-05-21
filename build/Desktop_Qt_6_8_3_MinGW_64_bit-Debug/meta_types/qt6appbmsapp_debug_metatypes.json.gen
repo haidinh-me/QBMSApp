@@ -1,0 +1,892 @@
+[
+    {
+        "classes": [
+            {
+                "className": "BmsViewModel",
+                "lineNumber": 12,
+                "methods": [
+                    {
+                        "access": "public",
+                        "index": 10,
+                        "name": "connectToUart",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 11,
+                        "name": "disconnectFromUart",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 12,
+                        "name": "refreshNow",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 13,
+                        "name": "reloadAvailablePorts",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "snapshot",
+                        "notify": "snapshotChanged",
+                        "read": "snapshot",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QVariantMap",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "connected",
+                        "notify": "connectedChanged",
+                        "read": "isConnected",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "connectionState",
+                        "notify": "connectionStateChanged",
+                        "read": "connectionState",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "name": "connectionStateText",
+                        "notify": "connectionStateChanged",
+                        "read": "connectionStateText",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "name": "errorCode",
+                        "notify": "errorChanged",
+                        "read": "errorCode",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "name": "errorMessage",
+                        "notify": "errorChanged",
+                        "read": "errorMessage",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 6,
+                        "name": "statusMessage",
+                        "notify": "statusMessageChanged",
+                        "read": "statusMessage",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 7,
+                        "name": "lastFrameHex",
+                        "notify": "lastFrameHexChanged",
+                        "read": "lastFrameHex",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 8,
+                        "name": "availablePorts",
+                        "notify": "availablePortsChanged",
+                        "read": "availablePorts",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QStringList",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 9,
+                        "name": "portName",
+                        "notify": "portNameChanged",
+                        "read": "portName",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setPortName"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 10,
+                        "name": "baudRate",
+                        "notify": "baudRateChanged",
+                        "read": "baudRate",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setBaudRate"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 11,
+                        "name": "pollingIntervalMs",
+                        "notify": "pollingIntervalMsChanged",
+                        "read": "pollingIntervalMs",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setPollingIntervalMs"
+                    }
+                ],
+                "qualifiedClassName": "BmsViewModel",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "snapshotChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "connectedChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "name": "connectionStateChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "errorChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "name": "statusMessageChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "name": "lastFrameHexChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 6,
+                        "name": "availablePortsChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 7,
+                        "name": "portNameChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 8,
+                        "name": "baudRateChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 9,
+                        "name": "pollingIntervalMsChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "bmsviewmodel.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "BmsManager",
+                "enums": [
+                    {
+                        "isClass": true,
+                        "isFlag": false,
+                        "name": "ConnectionState",
+                        "values": [
+                            "Idle",
+                            "Connecting",
+                            "Online",
+                            "Degraded",
+                            "Error"
+                        ]
+                    },
+                    {
+                        "isClass": true,
+                        "isFlag": false,
+                        "name": "ErrorCode",
+                        "values": [
+                            "None",
+                            "InvalidConfig",
+                            "OpenFailed",
+                            "PortClosed",
+                            "WriteFailed",
+                            "Timeout",
+                            "InvalidFrame",
+                            "ChecksumMismatch",
+                            "DeviceStatusError",
+                            "TransportError",
+                            "Unknown"
+                        ]
+                    }
+                ],
+                "lineNumber": 16,
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "gpioPin",
+                                "type": "int"
+                            },
+                            {
+                                "name": "pwmMode",
+                                "type": "bool"
+                            },
+                            {
+                                "name": "pwmFrequency",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 12,
+                        "name": "initializeFanControl",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "gpioPin",
+                                "type": "int"
+                            },
+                            {
+                                "name": "pwmMode",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 13,
+                        "isCloned": true,
+                        "name": "initializeFanControl",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "gpioPin",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 14,
+                        "isCloned": true,
+                        "name": "initializeFanControl",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "onTemp",
+                                "type": "double"
+                            },
+                            {
+                                "name": "offTemp",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 15,
+                        "name": "setFanDigitalThresholds",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "minTemp",
+                                "type": "double"
+                            },
+                            {
+                                "name": "maxTemp",
+                                "type": "double"
+                            },
+                            {
+                                "name": "minPwm",
+                                "type": "int"
+                            },
+                            {
+                                "name": "maxPwm",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 16,
+                        "name": "setFanPwmRange",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "minTemp",
+                                "type": "double"
+                            },
+                            {
+                                "name": "maxTemp",
+                                "type": "double"
+                            },
+                            {
+                                "name": "minPwm",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 17,
+                        "isCloned": true,
+                        "name": "setFanPwmRange",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "minTemp",
+                                "type": "double"
+                            },
+                            {
+                                "name": "maxTemp",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 18,
+                        "isCloned": true,
+                        "name": "setFanPwmRange",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "on",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 19,
+                        "name": "setFanState",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "pwmPercent",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 20,
+                        "name": "setFanSpeed",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 21,
+                        "name": "isFanInitialized",
+                        "returnType": "bool"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "connected",
+                        "notify": "connectedChanged",
+                        "read": "isConnected",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 1,
+                        "name": "connectionState",
+                        "notify": "connectionStateChanged",
+                        "read": "connectionState",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "BmsManager::ConnectionState",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 2,
+                        "name": "errorCode",
+                        "notify": "errorChanged",
+                        "read": "errorCode",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "BmsManager::ErrorCode",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 3,
+                        "name": "errorMessage",
+                        "notify": "errorChanged",
+                        "read": "errorMessage",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 4,
+                        "name": "statusMessage",
+                        "notify": "statusMessageChanged",
+                        "read": "statusMessage",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 5,
+                        "name": "lastFrameHex",
+                        "notify": "lastFrameHexChanged",
+                        "read": "lastFrameHex",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false
+                    }
+                ],
+                "qualifiedClassName": "BmsManager",
+                "signals": [
+                    {
+                        "access": "public",
+                        "index": 0,
+                        "name": "snapshotChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 1,
+                        "name": "connectedChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 2,
+                        "name": "connectionStateChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 3,
+                        "name": "errorChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "name": "statusMessageChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 5,
+                        "name": "lastFrameHexChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "frame",
+                                "type": "QByteArray"
+                            }
+                        ],
+                        "index": 6,
+                        "name": "handleFrame",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "connected",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 7,
+                        "name": "handleReaderConnectionChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "code",
+                                "type": "BmsSerialReader::TransportErrorCode"
+                            },
+                            {
+                                "name": "errorMessage",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "recoverable",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 8,
+                        "name": "handleReaderTransportError",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 9,
+                        "name": "handlePollTimeout",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 10,
+                        "name": "handleResponseTimeout",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 11,
+                        "name": "handleReconnectTimeout",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "bmsmanager.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "BmsSerialReader",
+                "enums": [
+                    {
+                        "isClass": true,
+                        "isFlag": false,
+                        "name": "TransportErrorCode",
+                        "values": [
+                            "PortOpenFailed",
+                            "PortClosed",
+                            "WriteFailed",
+                            "ResourceLost",
+                            "ReadFailed"
+                        ]
+                    }
+                ],
+                "lineNumber": 10,
+                "object": true,
+                "qualifiedClassName": "BmsSerialReader",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "frame",
+                                "type": "QByteArray"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "frameReceived",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "connected",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "connectionChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "code",
+                                "type": "BmsSerialReader::TransportErrorCode"
+                            },
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            },
+                            {
+                                "name": "recoverable",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "transportErrorOccurred",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "index": 3,
+                        "name": "onReadyRead",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "bmsserialreader.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "GpioFanController",
+                "enums": [
+                    {
+                        "isClass": true,
+                        "isFlag": false,
+                        "name": "FanMode",
+                        "values": [
+                            "Digital",
+                            "PWM"
+                        ]
+                    }
+                ],
+                "lineNumber": 10,
+                "object": true,
+                "qualifiedClassName": "GpioFanController",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "on",
+                                "type": "bool"
+                            }
+                        ],
+                        "index": 0,
+                        "name": "fanStateChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "pwmPercent",
+                                "type": "int"
+                            }
+                        ],
+                        "index": 1,
+                        "name": "fanSpeedChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "temp",
+                                "type": "double"
+                            }
+                        ],
+                        "index": 2,
+                        "name": "temperatureUpdated",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "index": 3,
+                        "name": "errorOccurred",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "index": 4,
+                        "name": "initialized",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "exitCode",
+                                "type": "int"
+                            },
+                            {
+                                "name": "exitStatus",
+                                "type": "QProcess::ExitStatus"
+                            }
+                        ],
+                        "index": 5,
+                        "name": "handlePythonProcessFinished",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "arguments": [
+                            {
+                                "name": "error",
+                                "type": "QProcess::ProcessError"
+                            }
+                        ],
+                        "index": 6,
+                        "name": "handlePythonProcessError",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 7,
+                        "name": "handlePythonStdout",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "private",
+                        "index": 8,
+                        "name": "handlePythonStderr",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "gpioFanController.h",
+        "outputRevision": 68
+    }
+]

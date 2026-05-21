@@ -1,0 +1,12 @@
+-I
+F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug
+-I
+C:/Qt/6.8.3/mingw_64/qml
+--resource
+F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qmake_BMSApp.qrc
+--resource
+F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/appBMSApp_raw_qml_0.qrc
+--resource
+F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/appBMSApp_raw_qml_0_extra_qmldirs.qrc
+--module
+BMSApp

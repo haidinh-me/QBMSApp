@@ -1,0 +1,14 @@
+-rootPath
+F:/Document/Qt Practical/BMSApp
+-cmake-output
+-output-file
+F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Release/.qt/qml_imports/appBMSApp_build.cmake
+-importPath
+F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Release/BMSApp
+-importPath
+F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Release
+-importPath
+C:/Qt/6.8.3/mingw_64/qml
+-qrcFiles
+F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Release/.qt/rcc/qmake_BMSApp.qrc
+F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Release/.qt/rcc/appBMSApp_raw_qml_0.qrc

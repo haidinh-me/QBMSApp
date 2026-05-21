@@ -1,0 +1,18 @@
+{
+    "classes": [
+        {
+            "className": "BmsManager",
+            "lineNumber": 6,
+            "object": true,
+            "qualifiedClassName": "BmsManager",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "bmsmanager.h",
+    "outputRevision": 68
+}

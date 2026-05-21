@@ -1,0 +1,127 @@
+{
+    "classes": [
+        {
+            "className": "GpioFanController",
+            "enums": [
+                {
+                    "isClass": true,
+                    "isFlag": false,
+                    "name": "FanMode",
+                    "values": [
+                        "Digital",
+                        "PWM"
+                    ]
+                }
+            ],
+            "lineNumber": 10,
+            "object": true,
+            "qualifiedClassName": "GpioFanController",
+            "signals": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "on",
+                            "type": "bool"
+                        }
+                    ],
+                    "index": 0,
+                    "name": "fanStateChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "pwmPercent",
+                            "type": "int"
+                        }
+                    ],
+                    "index": 1,
+                    "name": "fanSpeedChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "temp",
+                            "type": "double"
+                        }
+                    ],
+                    "index": 2,
+                    "name": "temperatureUpdated",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        }
+                    ],
+                    "index": 3,
+                    "name": "errorOccurred",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "index": 4,
+                    "name": "initialized",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "exitCode",
+                            "type": "int"
+                        },
+                        {
+                            "name": "exitStatus",
+                            "type": "QProcess::ExitStatus"
+                        }
+                    ],
+                    "index": 5,
+                    "name": "handlePythonProcessFinished",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "arguments": [
+                        {
+                            "name": "error",
+                            "type": "QProcess::ProcessError"
+                        }
+                    ],
+                    "index": 6,
+                    "name": "handlePythonProcessError",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 7,
+                    "name": "handlePythonStdout",
+                    "returnType": "void"
+                },
+                {
+                    "access": "private",
+                    "index": 8,
+                    "name": "handlePythonStderr",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "gpioFanController.h",
+    "outputRevision": 68
+}

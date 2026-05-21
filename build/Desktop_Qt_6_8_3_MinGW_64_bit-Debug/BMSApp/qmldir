@@ -1,0 +1,15 @@
+module BMSApp
+typeinfo appBMSApp.qmltypes
+prefer :/qt/qml/BMSApp/
+Main 254.0 Main.qml
+AppCard 254.0 qml/components/AppCard.qml
+AppShell 254.0 qml/components/AppShell.qml
+BatteryCellBar 254.0 qml/components/BatteryCellBar.qml
+BottomTabBar 254.0 qml/components/BottomTabBar.qml
+InfoPair 254.0 qml/components/InfoPair.qml
+DashboardView 254.0 qml/views/DashboardView.qml
+PacksView 254.0 qml/views/PacksView.qml
+SettingsView 254.0 qml/views/SettingsView.qml
+Gauge 254.0 qml/components/Gauge.qml
+ValueTile 254.0 qml/components/ValueTile.qml
+

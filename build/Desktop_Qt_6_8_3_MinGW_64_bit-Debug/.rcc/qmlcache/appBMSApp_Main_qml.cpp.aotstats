@@ -1,0 +1,44 @@
+[
+    {
+        "moduleFiles": [
+            {
+                "entries": [
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 12,
+                        "durationMicroseconds": 854,
+                        "errorMessage": "",
+                        "functionName": "flags",
+                        "line": 12
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 17,
+                        "durationMicroseconds": 140,
+                        "errorMessage": "",
+                        "functionName": "visibility",
+                        "line": 13
+                    },
+                    {
+                        "codegenSuccessfull": false,
+                        "column": 20,
+                        "durationMicroseconds": 276,
+                        "errorMessage": "Cannot access value for name bmsViewModel",
+                        "functionName": "viewModel",
+                        "line": 17
+                    },
+                    {
+                        "codegenSuccessfull": true,
+                        "column": 23,
+                        "durationMicroseconds": 116,
+                        "errorMessage": "",
+                        "functionName": "fill",
+                        "line": 16
+                    }
+                ],
+                "filepath": "F:/Document/Qt Practical/BMSApp/Main.qml"
+            }
+        ],
+        "moduleId": "BMSApp(appBMSApp)"
+    }
+]

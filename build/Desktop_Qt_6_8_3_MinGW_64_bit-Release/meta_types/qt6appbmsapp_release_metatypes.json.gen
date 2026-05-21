@@ -1,0 +1,56 @@
+[
+    {
+        "classes": [
+            {
+                "className": "BmsViewModel",
+                "lineNumber": 7,
+                "object": true,
+                "qualifiedClassName": "BmsViewModel",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "bmsviewmodel.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "BmsManager",
+                "lineNumber": 6,
+                "object": true,
+                "qualifiedClassName": "BmsManager",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "bmsmanager.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "BmsSerialReader",
+                "lineNumber": 6,
+                "object": true,
+                "qualifiedClassName": "BmsSerialReader",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "bmsserialreader.h",
+        "outputRevision": 68
+    }
+]

@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/qt/qml/BMSApp/">
+    <file alias="Main.qml">F:/Document/Qt Practical/BMSApp/Main.qml</file>
+  </qresource>
+</RCC>
+
