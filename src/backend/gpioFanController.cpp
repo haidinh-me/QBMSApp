@@ -32,7 +32,7 @@ GpioFanController::GpioFanController(QObject *parent)
         if (m_pendingUpdate) {
             m_pendingUpdate = false;
             if (m_mode == FanMode::Digital) {
-                // updateTemperature() sẽ handle state change
+                // updateTemperature()
             }
         }
     });
@@ -53,7 +53,7 @@ bool GpioFanController::initialize(int gpioPin, FanMode mode, int pwmFrequency)
     m_mode = mode;
     m_pwmFrequency = qMax(1, pwmFrequency);
 
-    // Tìm đường dẫn script Python
+    // find Python script in common locations
     QString appDir = QCoreApplication::applicationDirPath();
     QString candidates[] = {
         QDir(appDir).filePath("gpio_fan_controller.py"),
@@ -76,7 +76,7 @@ bool GpioFanController::initialize(int gpioPin, FanMode mode, int pwmFrequency)
         return false;
     }
 
-    // Test initialize GPIO bằng Python script
+    // Test initialize GPIO using Python script
     QStringList args;
     args << m_pythonScriptPath << "init" << QString::number(gpioPin)
          << (mode == FanMode::PWM ? "pwm" : "digital") << QString::number(pwmFrequency);
@@ -137,7 +137,7 @@ void GpioFanController::updateTemperature(double temperatureC)
             setFanState(shouldBeOn);
         }
     } else {
-        // PWM mode - tính toán tốc độ dựa trên nhiệt độ
+        // PWM mode
         int newPwm = calculatePwmFromTemperature(temperatureC);
         if (newPwm != m_currentPwm) {
             setFanSpeed(newPwm);
@@ -177,7 +177,7 @@ void GpioFanController::setFanState(bool on)
     }
 
     if (on == m_fanOn) {
-        return;  // Trạng thái không thay đổi
+        return;
     }
 
     m_fanOn = on;
@@ -200,7 +200,7 @@ void GpioFanController::setFanSpeed(int pwmPercent)
     pwmPercent = qBound(0, pwmPercent, 100);
 
     if (pwmPercent == m_currentPwm) {
-        return;  // Tốc độ không thay đổi
+        return;
     }
 
     m_currentPwm = pwmPercent;
@@ -235,7 +235,7 @@ int GpioFanController::calculatePwmFromTemperature(double temp)
 
 void GpioFanController::executePythonCommand(const QStringList &args)
 {
-    // Chạy async, không chờ
+    // Running async, no wait
     if (m_pythonProcess.state() != QProcess::NotRunning) {
         m_pythonProcess.waitForFinished(100);
     }
@@ -283,7 +283,6 @@ void GpioFanController::handlePythonStdout()
 {
     QString output = QString::fromUtf8(m_pythonProcess.readAllStandardOutput()).trimmed();
     if (!output.isEmpty()) {
-        // Có thể log hoặc xử lý output từ script nếu cần
         qDebug().noquote() << "[GPIO]" << output;
     }
 }

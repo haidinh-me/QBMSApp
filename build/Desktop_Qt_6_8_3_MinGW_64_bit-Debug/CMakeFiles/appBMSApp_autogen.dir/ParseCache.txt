@@ -667,7 +667,6 @@ F:/Document/Qt Practical/BMSApp/src/backend/bmsserialreader.h
  mdp:F:/Document/Qt Practical/BMSApp/src/backend/bmsserialreader.h
 F:/Document/Qt Practical/BMSApp/src/viewmodels/bmsviewmodel.cpp
 F:/Document/Qt Practical/BMSApp/src/backend/bmssnapshot.h
-F:/Document/Qt Practical/BMSApp/src/backend/jbdprotocol.h
 F:/Document/Qt Practical/BMSApp/src/backend/gpioFanController.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.8.3/mingw_64/include/QtCore/QObject
@@ -984,6 +983,7 @@ F:/Document/Qt Practical/BMSApp/src/backend/gpioFanController.h
  mdp:C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h
  mdp:F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/appBMSApp_autogen/moc_predefs.h
  mdp:F:/Document/Qt Practical/BMSApp/src/backend/gpioFanController.h
+F:/Document/Qt Practical/BMSApp/src/backend/jbdprotocol.h
 F:/Document/Qt Practical/BMSApp/src/viewmodels/bmsviewmodel.h
  mmc:Q_OBJECT
  mdp:C:/Qt/6.8.3/mingw_64/include/QtCore/QByteArray

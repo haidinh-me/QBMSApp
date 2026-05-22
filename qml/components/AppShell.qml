@@ -74,7 +74,13 @@ Item {
                         font.pixelSize: 16 * root.uiScale
                     }
 
-                    Item { Layout.fillWidth: true }
+                    Label{
+                        text: "[Hải Định] [Tấn Phát] [Tấn Đạt] [Công Phúc] [Minh Thông]"
+                        color: "#e0b507"
+                        font.bold: true;
+                        font.pixelSize: 17 * root.uiScale
+                        Layout.alignment: Qt.AlignCenter
+                    }
 
                     Label {
                         text: root.viewModel ? root.viewModel.connectionStateText.toUpperCase() : "IDLE"

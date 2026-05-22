@@ -1,184 +1,195 @@
 # ninja log v6
-1578	1675	8010726610545889	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp	9c8670e88fa8ac52
+43	107	8011586134019182	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/appBMSApp_qml.txt	417c1212aaafb705
+335	403	8011586136958448	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp	9c8670e88fa8ac52
 32	102	7974478459997105	.qt/appBMSApp_res.txt	651c47bb80ca614b
-71	149	8010726595344878	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/appBMSApp_qml.txt	417c1212aaafb705
+116	506	8011578650226910	appBMSApp_autogen/mocs_compilation.cpp	b3c81dd0524caf30
+1523	1847	8010734546038511	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/BMSApp/appBMSApp.qmltypes	1d4e30f9149335fb
 32	102	7974478459997105	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/appBMSApp_res.txt	651c47bb80ca614b
-1244	1444	8010029584071479	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/BMSApp/appBMSApp.qmltypes	1d4e30f9149335fb
-300	1566	8010726607923208	appBMSApp_autogen/mocs_compilation.cpp	b3c81dd0524caf30
-1506	1827	8010029588104531	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/DashboardView_qml.cpp.aotstats	6f4074d6a30339f2
-71	149	8010726595344878	.qt/appBMSApp_qml.txt	417c1212aaafb705
-82	300	8010726596822925	.qt/qml_imports/appBMSApp_build.cmake	9b3c393615bffd4e
-1244	1444	8010029584071479	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/appbmsapp_qmltyperegistrations.cpp	1d4e30f9149335fb
-300	1566	8010726607923208	appBMSApp_autogen/timestamp	b3c81dd0524caf30
-82	300	8010726596822925	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/qml_imports/appBMSApp_build.cmake	9b3c393615bffd4e
-300	1566	8010726607923208	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/appBMSApp_autogen/timestamp	b3c81dd0524caf30
-300	1566	8010726607923208	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/appBMSApp_autogen/mocs_compilation.cpp	b3c81dd0524caf30
-2126	7503	8010726615187678	CMakeFiles/appBMSApp.dir/main.cpp.obj	9de8ff6633e79b0d
+1915	2301	8010734550948382	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/DashboardView_qml.cpp.aotstats	6f4074d6a30339f2
+43	107	8011586134019182	.qt/appBMSApp_qml.txt	417c1212aaafb705
+1523	1847	8010734546038511	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/appbmsapp_qmltyperegistrations.cpp	1d4e30f9149335fb
+52	323	8011586136177226	.qt/qml_imports/appBMSApp_build.cmake	9b3c393615bffd4e
+116	506	8011578650226910	appBMSApp_autogen/timestamp	b3c81dd0524caf30
+52	323	8011586136177226	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/qml_imports/appBMSApp_build.cmake	9b3c393615bffd4e
+116	506	8011578650226910	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/appBMSApp_autogen/timestamp	b3c81dd0524caf30
 122	15383	8010734520688579	build.ninja	be67ecfb0cbb06be
-1506	1827	8010029588104531	.rcc/qmlcache/appBMSApp_qml/views/DashboardView_qml.cpp.aotstats	6f4074d6a30339f2
-1578	1675	8010726610545889	.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp	9c8670e88fa8ac52
-1567	1679	8010726610604826	meta_types/appBMSApp_json_file_list.txt	b799bf71328184a5
-1244	1444	8010029584071479	BMSApp/appBMSApp.qmltypes	1d4e30f9149335fb
-1529	1916	8010029589219342	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/SettingsView_qml.cpp.aotstats	aaeeac4376d83155
-1567	1679	8010726610604826	meta_types/appBMSApp_json_file_list.txt.timestamp	b799bf71328184a5
-1567	1679	8010726610604826	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/meta_types/appBMSApp_json_file_list.txt	b799bf71328184a5
-2154	2744	8010726615472539	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp.obj	68a91e0a8c0ab251
-1506	1827	8010029588104531	.rcc/qmlcache/appBMSApp_qml/views/DashboardView_qml.cpp	6f4074d6a30339f2
-1567	1679	8010726610604826	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/meta_types/appBMSApp_json_file_list.txt.timestamp	b799bf71328184a5
-1765	2120	8010726614916872	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_Main_qml.cpp	f1ce690e697e9a42
-588	673	7999933847090123	.qt/rcc/qrc_qmake_BMSApp.cpp	8d7396add1df0378
+1915	2301	8010734550948382	.rcc/qmlcache/appBMSApp_qml/views/DashboardView_qml.cpp.aotstats	6f4074d6a30339f2
+116	506	8011578650226910	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/appBMSApp_autogen/mocs_compilation.cpp	b3c81dd0524caf30
+2479	8523	8010734553031007	CMakeFiles/appBMSApp.dir/main.cpp.obj	9de8ff6633e79b0d
+335	403	8011586136958448	.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp	9c8670e88fa8ac52
+1939	2405	8010734552054475	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/SettingsView_qml.cpp.aotstats	aaeeac4376d83155
+1523	1847	8010734546038511	BMSApp/appBMSApp.qmltypes	1d4e30f9149335fb
+509	911	8011578658029140	meta_types/appBMSApp_json_file_list.txt	b799bf71328184a5
+509	911	8011578658029140	meta_types/appBMSApp_json_file_list.txt.timestamp	b799bf71328184a5
+1915	2301	8010734550948382	.rcc/qmlcache/appBMSApp_qml/views/DashboardView_qml.cpp	6f4074d6a30339f2
+544	644	8011586138569665	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp.obj	68a91e0a8c0ab251
+509	911	8011578658029140	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/meta_types/appBMSApp_json_file_list.txt	b799bf71328184a5
+509	911	8011578658029140	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/meta_types/appBMSApp_json_file_list.txt.timestamp	b799bf71328184a5
+1848	2264	8010734549768750	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_Main_qml.cpp	f1ce690e697e9a42
 604	716	7999933847603124	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qmlcache_loader.cpp	b2794ec85c9dfc2d
+588	673	7999933847090123	.qt/rcc/qrc_qmake_BMSApp.cpp	8d7396add1df0378
 588	673	7999933847090123	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_BMSApp.cpp	8d7396add1df0378
 604	716	7999933847603124	.rcc/qmlcache/appBMSApp_qmlcache_loader.cpp	b2794ec85c9dfc2d
-1679	1765	8010726610722550	meta_types/qt6appbmsapp_debug_metatypes.json.gen	a77b6808ddbf50a7
-1679	1765	8010726610722550	meta_types/qt6appbmsapp_debug_metatypes.json	a77b6808ddbf50a7
-1679	1765	8010726610722550	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/meta_types/qt6appbmsapp_debug_metatypes.json.gen	a77b6808ddbf50a7
-1244	1444	8010029584071479	appbmsapp_qmltyperegistrations.cpp	1d4e30f9149335fb
-2131	7244	8010726615241996	CMakeFiles/appBMSApp.dir/src/backend/bmsmanager.cpp.obj	78bd75a3c829e4a0
-1679	1765	8010726610722550	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/meta_types/qt6appbmsapp_debug_metatypes.json	a77b6808ddbf50a7
-1765	2120	8010726614916872	.rcc/qmlcache/appBMSApp_Main_qml.cpp	f1ce690e697e9a42
-1765	2120	8010726614916872	.rcc/qmlcache/appBMSApp_Main_qml.cpp.aotstats	f1ce690e697e9a42
-2147	7087	8010726615404099	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_Main_qml.cpp.obj	e6f17ac9e8f4bf84
-1765	2120	8010726614916872	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_Main_qml.cpp.aotstats	f1ce690e697e9a42
-1529	1916	8010029589219342	.rcc/qmlcache/appBMSApp_qml/views/SettingsView_qml.cpp.aotstats	aaeeac4376d83155
-2120	8064	8010726615132782	CMakeFiles/appBMSApp.dir/appBMSApp_autogen/mocs_compilation.cpp.obj	2c83ab8ad25d824a
+911	1053	8011578658175705	meta_types/qt6appbmsapp_debug_metatypes.json.gen	a77b6808ddbf50a7
+911	1053	8011578658175705	meta_types/qt6appbmsapp_debug_metatypes.json	a77b6808ddbf50a7
+2497	8662	8010734553216543	CMakeFiles/appBMSApp.dir/src/backend/bmsmanager.cpp.obj	78bd75a3c829e4a0
+1523	1847	8010734546038511	appbmsapp_qmltyperegistrations.cpp	1d4e30f9149335fb
+911	1053	8011578658175705	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/meta_types/qt6appbmsapp_debug_metatypes.json.gen	a77b6808ddbf50a7
+911	1053	8011578658175705	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/meta_types/qt6appbmsapp_debug_metatypes.json	a77b6808ddbf50a7
+1848	2264	8010734549768750	.rcc/qmlcache/appBMSApp_Main_qml.cpp	f1ce690e697e9a42
+2518	8514	8010734553421591	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_Main_qml.cpp.obj	e6f17ac9e8f4bf84
+1848	2264	8010734549768750	.rcc/qmlcache/appBMSApp_Main_qml.cpp.aotstats	f1ce690e697e9a42
+1939	2405	8010734552054475	.rcc/qmlcache/appBMSApp_qml/views/SettingsView_qml.cpp.aotstats	aaeeac4376d83155
+1848	2264	8010734549768750	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_Main_qml.cpp.aotstats	f1ce690e697e9a42
+2474	9611	8010734552982190	CMakeFiles/appBMSApp.dir/appBMSApp_autogen/mocs_compilation.cpp.obj	2c83ab8ad25d824a
 1224	1459	8010031942202893	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_qmake_BMSApp.cpp.obj	ae3be87d0f434171
-1462	1894	8010029588972857	.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp	633db09aeaa75ace
-1217	7146	8010031942128991	CMakeFiles/appBMSApp.dir/appbmsapp_qmltyperegistrations.cpp.obj	2c83c9e24d741b51
-1473	1814	8010029587695947	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/BatteryCellBar_qml.cpp.aotstats	5c4e9c1a0ffe8386
+1881	2250	8010734549895696	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/BatteryCellBar_qml.cpp.aotstats	5c4e9c1a0ffe8386
+323	539	8011586138267015	.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp	633db09aeaa75ace
+2485	8557	8010734553089600	CMakeFiles/appBMSApp.dir/appbmsapp_qmltyperegistrations.cpp.obj	2c83c9e24d741b51
 1256	7361	8010031942513364	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qmlcache_loader.cpp.obj	2108b10a35e2b1f6
-8065	9911	8010726674575927	appBMSApp.exe	fb2f87c0ad6189cb
-1540	1856	8010029588568683	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/Gauge_qml.cpp	246a242c275e77eb
-1229	6796	8010031942251680	CMakeFiles/appBMSApp.dir/src/backend/bmsserialreader.cpp.obj	86b68232d3eb037c
-2142	7427	8010726615354875	CMakeFiles/appBMSApp.dir/src/viewmodels/bmsviewmodel.cpp.obj	ffb670fa447f26e2
+2669	3835	8011586159818307	appBMSApp.exe	fb2f87c0ad6189cb
+1951	2320	8010734551154575	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/Gauge_qml.cpp	246a242c275e77eb
+2492	8740	8010734553157947	CMakeFiles/appBMSApp.dir/src/backend/bmsserialreader.cpp.obj	86b68232d3eb037c
+2513	9920	8010734553372766	CMakeFiles/appBMSApp.dir/src/viewmodels/bmsviewmodel.cpp.obj	ffb670fa447f26e2
 464	523	7974540019260178	.qt/rcc/qrc_appBMSApp_raw_qml_0_extra_qmldirs.cpp	af2d4805a843a335
 464	523	7974540019260178	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appBMSApp_raw_qml_0_extra_qmldirs.cpp	af2d4805a843a335
-1473	1814	8010029587695947	.rcc/qmlcache/appBMSApp_qml/components/BatteryCellBar_qml.cpp	5c4e9c1a0ffe8386
-1473	1814	8010029587695947	.rcc/qmlcache/appBMSApp_qml/components/BatteryCellBar_qml.cpp.aotstats	5c4e9c1a0ffe8386
-1473	1814	8010029587695947	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/BatteryCellBar_qml.cpp	5c4e9c1a0ffe8386
-1518	1827	8010029588169389	.rcc/qmlcache/appBMSApp_qml/views/PacksView_qml.cpp	f3cf2b90428e44f5
-752	10899	8010033098128202	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/BatteryCellBar_qml.cpp.obj	eedc5af98b05026a
-1518	1827	8010029588169389	.rcc/qmlcache/appBMSApp_qml/views/PacksView_qml.cpp.aotstats	f3cf2b90428e44f5
-1518	1827	8010029588169389	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/PacksView_qml.cpp	f3cf2b90428e44f5
-779	10695	8010033098403273	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/DashboardView_qml.cpp.obj	29714a2ef66435b1
-1518	1827	8010029588169389	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/PacksView_qml.cpp.aotstats	f3cf2b90428e44f5
-1506	1827	8010029588104531	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/DashboardView_qml.cpp	6f4074d6a30339f2
-1529	1916	8010029589219342	.rcc/qmlcache/appBMSApp_qml/views/SettingsView_qml.cpp	aaeeac4376d83155
-1529	1916	8010029589219342	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/SettingsView_qml.cpp	aaeeac4376d83155
-10097	13832	8010033191583872	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/ValueTile_qml.cpp.obj	8f73aa510d9a9ba4
+1881	2250	8010734549895696	.rcc/qmlcache/appBMSApp_qml/components/BatteryCellBar_qml.cpp	5c4e9c1a0ffe8386
+1881	2250	8010734549895696	.rcc/qmlcache/appBMSApp_qml/components/BatteryCellBar_qml.cpp.aotstats	5c4e9c1a0ffe8386
+1881	2250	8010734549895696	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/BatteryCellBar_qml.cpp	5c4e9c1a0ffe8386
+1927	2361	8010734551634606	.rcc/qmlcache/appBMSApp_qml/views/PacksView_qml.cpp	f3cf2b90428e44f5
+8514	13576	8010734613381661	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/BatteryCellBar_qml.cpp.obj	eedc5af98b05026a
+1927	2361	8010734551634606	.rcc/qmlcache/appBMSApp_qml/views/PacksView_qml.cpp.aotstats	f3cf2b90428e44f5
+1927	2361	8010734551634606	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/PacksView_qml.cpp	f3cf2b90428e44f5
+8662	13409	8010734614865942	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/DashboardView_qml.cpp.obj	29714a2ef66435b1
+1927	2361	8010734551634606	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/PacksView_qml.cpp.aotstats	f3cf2b90428e44f5
+1915	2301	8010734550948382	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/DashboardView_qml.cpp	6f4074d6a30339f2
+1939	2405	8010734552054475	.rcc/qmlcache/appBMSApp_qml/views/SettingsView_qml.cpp	aaeeac4376d83155
+9611	13958	8010734624357511	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/ValueTile_qml.cpp.obj	8f73aa510d9a9ba4
+1939	2405	8010734552054475	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/SettingsView_qml.cpp	aaeeac4376d83155
 103	235	8010033230245821	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appBMSApp_raw_qml_0_extra_qmldirs.cpp.obj	eb97a64ad3ebf7a2
-791	10602	8010033098516519	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/PacksView_qml.cpp.obj	ccd1e92dc5f56a9a
-799	10365	8010033098605981	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/SettingsView_qml.cpp.obj	ef99e276000555ba
-1540	1856	8010029588568683	.rcc/qmlcache/appBMSApp_qml/components/Gauge_qml.cpp	246a242c275e77eb
-1540	1856	8010029588568683	.rcc/qmlcache/appBMSApp_qml/components/Gauge_qml.cpp.aotstats	246a242c275e77eb
-1540	1856	8010029588568683	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/Gauge_qml.cpp.aotstats	246a242c275e77eb
-808	10156	8010033098693921	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/Gauge_qml.cpp.obj	b524efea71607af8
+8740	14189	8010734615637375	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/PacksView_qml.cpp.obj	ccd1e92dc5f56a9a
+9257	14051	8010734620812841	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/SettingsView_qml.cpp.obj	ef99e276000555ba
+1951	2320	8010734551154575	.rcc/qmlcache/appBMSApp_qml/components/Gauge_qml.cpp	246a242c275e77eb
+1951	2320	8010734551154575	.rcc/qmlcache/appBMSApp_qml/components/Gauge_qml.cpp.aotstats	246a242c275e77eb
+1951	2320	8010734551154575	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/Gauge_qml.cpp.aotstats	246a242c275e77eb
+9605	14048	8010734624289169	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/Gauge_qml.cpp.obj	b524efea71607af8
 2230	2634	7980544014472063	.rcc/qmlcache/appBMSApp_qml/components/GlassPanel_qml.cpp	fb93ab573e8426cb
 2230	2634	7980544014472063	.rcc/qmlcache/appBMSApp_qml/components/GlassPanel_qml.cpp.aotstats	fb93ab573e8426cb
 2230	2634	7980544014472063	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/GlassPanel_qml.cpp	fb93ab573e8426cb
 2230	2634	7980544014472063	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/GlassPanel_qml.cpp.aotstats	fb93ab573e8426cb
-1484	1826	8010029587622105	.rcc/qmlcache/appBMSApp_qml/components/BottomTabBar_qml.cpp	a8c87cef36566ba7
-1484	1826	8010029587622105	.rcc/qmlcache/appBMSApp_qml/components/BottomTabBar_qml.cpp.aotstats	a8c87cef36566ba7
-1484	1826	8010029587622105	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/BottomTabBar_qml.cpp	a8c87cef36566ba7
-1484	1826	8010029587622105	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/BottomTabBar_qml.cpp.aotstats	a8c87cef36566ba7
-1815	1979	8010029589855777	.rcc/qmlcache/appBMSApp_qml/components/ValueTile_qml.cpp	10857f8ed2981c59
-1815	1979	8010029589855777	.rcc/qmlcache/appBMSApp_qml/components/ValueTile_qml.cpp.aotstats	10857f8ed2981c59
-1815	1979	8010029589855777	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/ValueTile_qml.cpp	10857f8ed2981c59
-1815	1979	8010029589855777	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/ValueTile_qml.cpp.aotstats	10857f8ed2981c59
-759	10094	8010033098206363	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/BottomTabBar_qml.cpp.obj	b6b60c98133c4d
-1452	1827	8010029587464556	.rcc/qmlcache/appBMSApp_qml/components/AppCard_qml.cpp	6639e1bd01451835
-743	10465	8010033098037835	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.obj	4357c856f712d1f4
-1452	1827	8010029587464556	.rcc/qmlcache/appBMSApp_qml/components/AppCard_qml.cpp.aotstats	6639e1bd01451835
-1452	1827	8010029587464556	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppCard_qml.cpp	6639e1bd01451835
-1452	1827	8010029587464556	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppCard_qml.cpp.aotstats	6639e1bd01451835
-1462	1894	8010029588972857	.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.aotstats	633db09aeaa75ace
-1462	1894	8010029588972857	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp	633db09aeaa75ace
-1462	1894	8010029588972857	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.aotstats	633db09aeaa75ace
-1494	1827	8010029587745766	.rcc/qmlcache/appBMSApp_qml/components/InfoPair_qml.cpp	f7bf565e4b0dbdeb
-1494	1827	8010029587745766	.rcc/qmlcache/appBMSApp_qml/components/InfoPair_qml.cpp.aotstats	f7bf565e4b0dbdeb
-1494	1827	8010029587745766	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/InfoPair_qml.cpp	f7bf565e4b0dbdeb
-1494	1827	8010029587745766	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/InfoPair_qml.cpp.aotstats	f7bf565e4b0dbdeb
-769	10597	8010033098295500	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/InfoPair_qml.cpp.obj	3cb57b1367f676ed
-735	10584	8010033097958492	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppCard_qml.cpp.obj	a67b7c16efecd63
-1239	6778	8010031942355105	CMakeFiles/appBMSApp.dir/src/backend/jbdprotocol.cpp.obj	88721ce78fb1e825
-2137	7345	8010726615296203	CMakeFiles/appBMSApp.dir/src/backend/gpioFanController.cpp.obj	40be79b63460515d
-57	1347	8010734540042811	appBMSApp_autogen/timestamp	b3c81dd0524caf30
-57	1347	8010734540042811	appBMSApp_autogen/mocs_compilation.cpp	b3c81dd0524caf30
-57	1347	8010734540042811	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/appBMSApp_autogen/timestamp	b3c81dd0524caf30
-57	1347	8010734540042811	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/appBMSApp_autogen/mocs_compilation.cpp	b3c81dd0524caf30
-1348	1433	8010734542464695	meta_types/appBMSApp_json_file_list.txt	b799bf71328184a5
-1348	1433	8010734542464695	meta_types/appBMSApp_json_file_list.txt.timestamp	b799bf71328184a5
-1348	1433	8010734542464695	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/meta_types/appBMSApp_json_file_list.txt	b799bf71328184a5
-1348	1433	8010734542464695	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/meta_types/appBMSApp_json_file_list.txt.timestamp	b799bf71328184a5
-1433	1523	8010734543362917	meta_types/qt6appbmsapp_debug_metatypes.json.gen	a77b6808ddbf50a7
-1433	1523	8010734543362917	meta_types/qt6appbmsapp_debug_metatypes.json	a77b6808ddbf50a7
-1433	1523	8010734543362917	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/meta_types/qt6appbmsapp_debug_metatypes.json.gen	a77b6808ddbf50a7
-1433	1523	8010734543362917	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/meta_types/qt6appbmsapp_debug_metatypes.json	a77b6808ddbf50a7
-1523	1847	8010734546038511	appbmsapp_qmltyperegistrations.cpp	1d4e30f9149335fb
-1523	1847	8010734546038511	BMSApp/appBMSApp.qmltypes	1d4e30f9149335fb
-1523	1847	8010734546038511	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/appbmsapp_qmltyperegistrations.cpp	1d4e30f9149335fb
-1523	1847	8010734546038511	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/BMSApp/appBMSApp.qmltypes	1d4e30f9149335fb
-1856	2101	8010734548626269	.rcc/qmlcache/appBMSApp_qml/components/AppCard_qml.cpp	6639e1bd01451835
-1856	2101	8010734548626269	.rcc/qmlcache/appBMSApp_qml/components/AppCard_qml.cpp.aotstats	6639e1bd01451835
-1856	2101	8010734548626269	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppCard_qml.cpp	6639e1bd01451835
-1856	2101	8010734548626269	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppCard_qml.cpp.aotstats	6639e1bd01451835
-1881	2250	8010734549895696	.rcc/qmlcache/appBMSApp_qml/components/BatteryCellBar_qml.cpp	5c4e9c1a0ffe8386
-1881	2250	8010734549895696	.rcc/qmlcache/appBMSApp_qml/components/BatteryCellBar_qml.cpp.aotstats	5c4e9c1a0ffe8386
-1881	2250	8010734549895696	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/BatteryCellBar_qml.cpp	5c4e9c1a0ffe8386
-1881	2250	8010734549895696	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/BatteryCellBar_qml.cpp.aotstats	5c4e9c1a0ffe8386
 1892	2258	8010734549983569	.rcc/qmlcache/appBMSApp_qml/components/BottomTabBar_qml.cpp	a8c87cef36566ba7
 1892	2258	8010734549983569	.rcc/qmlcache/appBMSApp_qml/components/BottomTabBar_qml.cpp.aotstats	a8c87cef36566ba7
 1892	2258	8010734549983569	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/BottomTabBar_qml.cpp	a8c87cef36566ba7
 1892	2258	8010734549983569	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/BottomTabBar_qml.cpp.aotstats	a8c87cef36566ba7
-1868	2264	8010734549895696	.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp	633db09aeaa75ace
-1868	2264	8010734549895696	.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.aotstats	633db09aeaa75ace
-1868	2264	8010734549895696	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp	633db09aeaa75ace
-1868	2264	8010734549895696	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.aotstats	633db09aeaa75ace
-1848	2264	8010734549768750	.rcc/qmlcache/appBMSApp_Main_qml.cpp	f1ce690e697e9a42
-1848	2264	8010734549768750	.rcc/qmlcache/appBMSApp_Main_qml.cpp.aotstats	f1ce690e697e9a42
-1848	2264	8010734549768750	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_Main_qml.cpp	f1ce690e697e9a42
-1848	2264	8010734549768750	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_Main_qml.cpp.aotstats	f1ce690e697e9a42
-1903	2296	8010734550540184	.rcc/qmlcache/appBMSApp_qml/components/InfoPair_qml.cpp	f7bf565e4b0dbdeb
-1903	2296	8010734550540184	.rcc/qmlcache/appBMSApp_qml/components/InfoPair_qml.cpp.aotstats	f7bf565e4b0dbdeb
-1903	2296	8010734550540184	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/InfoPair_qml.cpp	f7bf565e4b0dbdeb
-1903	2296	8010734550540184	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/InfoPair_qml.cpp.aotstats	f7bf565e4b0dbdeb
-1915	2301	8010734550948382	.rcc/qmlcache/appBMSApp_qml/views/DashboardView_qml.cpp	6f4074d6a30339f2
-1915	2301	8010734550948382	.rcc/qmlcache/appBMSApp_qml/views/DashboardView_qml.cpp.aotstats	6f4074d6a30339f2
-1915	2301	8010734550948382	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/DashboardView_qml.cpp	6f4074d6a30339f2
-1915	2301	8010734550948382	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/DashboardView_qml.cpp.aotstats	6f4074d6a30339f2
-1951	2320	8010734551154575	.rcc/qmlcache/appBMSApp_qml/components/Gauge_qml.cpp	246a242c275e77eb
-1951	2320	8010734551154575	.rcc/qmlcache/appBMSApp_qml/components/Gauge_qml.cpp.aotstats	246a242c275e77eb
-1951	2320	8010734551154575	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/Gauge_qml.cpp	246a242c275e77eb
-1951	2320	8010734551154575	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/Gauge_qml.cpp.aotstats	246a242c275e77eb
-1927	2361	8010734551634606	.rcc/qmlcache/appBMSApp_qml/views/PacksView_qml.cpp	f3cf2b90428e44f5
-1927	2361	8010734551634606	.rcc/qmlcache/appBMSApp_qml/views/PacksView_qml.cpp.aotstats	f3cf2b90428e44f5
-1927	2361	8010734551634606	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/PacksView_qml.cpp	f3cf2b90428e44f5
-1927	2361	8010734551634606	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/PacksView_qml.cpp.aotstats	f3cf2b90428e44f5
-1939	2405	8010734552054475	.rcc/qmlcache/appBMSApp_qml/views/SettingsView_qml.cpp	aaeeac4376d83155
-1939	2405	8010734552054475	.rcc/qmlcache/appBMSApp_qml/views/SettingsView_qml.cpp.aotstats	aaeeac4376d83155
-1939	2405	8010734552054475	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/SettingsView_qml.cpp	aaeeac4376d83155
-1939	2405	8010734552054475	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/SettingsView_qml.cpp.aotstats	aaeeac4376d83155
 2101	2474	8010734552767351	.rcc/qmlcache/appBMSApp_qml/components/ValueTile_qml.cpp	10857f8ed2981c59
 2101	2474	8010734552767351	.rcc/qmlcache/appBMSApp_qml/components/ValueTile_qml.cpp.aotstats	10857f8ed2981c59
 2101	2474	8010734552767351	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/ValueTile_qml.cpp	10857f8ed2981c59
 2101	2474	8010734552767351	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/ValueTile_qml.cpp.aotstats	10857f8ed2981c59
-2524	8436	8010734553489970	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppCard_qml.cpp.obj	a67b7c16efecd63
-2518	8514	8010734553421591	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_Main_qml.cpp.obj	e6f17ac9e8f4bf84
-2479	8523	8010734553031007	CMakeFiles/appBMSApp.dir/main.cpp.obj	9de8ff6633e79b0d
-2485	8557	8010734553089600	CMakeFiles/appBMSApp.dir/appbmsapp_qmltyperegistrations.cpp.obj	2c83c9e24d741b51
-2497	8662	8010734553216543	CMakeFiles/appBMSApp.dir/src/backend/bmsmanager.cpp.obj	78bd75a3c829e4a0
-2492	8740	8010734553157947	CMakeFiles/appBMSApp.dir/src/backend/bmsserialreader.cpp.obj	86b68232d3eb037c
-2503	9257	8010734553265383	CMakeFiles/appBMSApp.dir/src/backend/jbdprotocol.cpp.obj	88721ce78fb1e825
-2508	9605	8010734553323942	CMakeFiles/appBMSApp.dir/src/backend/gpioFanController.cpp.obj	40be79b63460515d
-2474	9611	8010734552982190	CMakeFiles/appBMSApp.dir/appBMSApp_autogen/mocs_compilation.cpp.obj	2c83ab8ad25d824a
-2513	9920	8010734553372766	CMakeFiles/appBMSApp.dir/src/viewmodels/bmsviewmodel.cpp.obj	ffb670fa447f26e2
-8557	12762	8010734613811311	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/InfoPair_qml.cpp.obj	3cb57b1367f676ed
-8662	13409	8010734614865942	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/DashboardView_qml.cpp.obj	29714a2ef66435b1
 8523	13516	8010734613469541	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/BottomTabBar_qml.cpp.obj	b6b60c98133c4d
-8437	13557	8010734612610233	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.obj	4357c856f712d1f4
-8514	13576	8010734613381661	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/BatteryCellBar_qml.cpp.obj	eedc5af98b05026a
-9611	13958	8010734624357511	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/ValueTile_qml.cpp.obj	8f73aa510d9a9ba4
-9605	14048	8010734624289169	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/Gauge_qml.cpp.obj	b524efea71607af8
-9257	14051	8010734620812841	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/SettingsView_qml.cpp.obj	ef99e276000555ba
-8740	14189	8010734615637375	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/views/PacksView_qml.cpp.obj	ccd1e92dc5f56a9a
-14189	15618	8010734670131102	appBMSApp.exe	fb2f87c0ad6189cb
+539	2669	8011586138520832	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.obj	4357c856f712d1f4
+1856	2101	8010734548626269	.rcc/qmlcache/appBMSApp_qml/components/AppCard_qml.cpp	6639e1bd01451835
+1856	2101	8010734548626269	.rcc/qmlcache/appBMSApp_qml/components/AppCard_qml.cpp.aotstats	6639e1bd01451835
+1856	2101	8010734548626269	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppCard_qml.cpp	6639e1bd01451835
+1856	2101	8010734548626269	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppCard_qml.cpp.aotstats	6639e1bd01451835
+323	539	8011586138267015	.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.aotstats	633db09aeaa75ace
+323	539	8011586138267015	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp	633db09aeaa75ace
+323	539	8011586138267015	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.aotstats	633db09aeaa75ace
+1903	2296	8010734550540184	.rcc/qmlcache/appBMSApp_qml/components/InfoPair_qml.cpp	f7bf565e4b0dbdeb
+1903	2296	8010734550540184	.rcc/qmlcache/appBMSApp_qml/components/InfoPair_qml.cpp.aotstats	f7bf565e4b0dbdeb
+1903	2296	8010734550540184	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/InfoPair_qml.cpp	f7bf565e4b0dbdeb
+1903	2296	8010734550540184	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/InfoPair_qml.cpp.aotstats	f7bf565e4b0dbdeb
+8557	12762	8010734613811311	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/InfoPair_qml.cpp.obj	3cb57b1367f676ed
+2524	8436	8010734553489970	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppCard_qml.cpp.obj	a67b7c16efecd63
+2503	9257	8010734553265383	CMakeFiles/appBMSApp.dir/src/backend/jbdprotocol.cpp.obj	88721ce78fb1e825
+1054	5571	8011578659601455	CMakeFiles/appBMSApp.dir/src/backend/gpioFanController.cpp.obj	40be79b63460515d
+64	132	8011586458325565	.qt/appBMSApp_qml.txt	417c1212aaafb705
+64	132	8011586458325565	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/appBMSApp_qml.txt	417c1212aaafb705
+74	330	8011586460327803	.qt/qml_imports/appBMSApp_build.cmake	9b3c393615bffd4e
+74	330	8011586460327803	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/qml_imports/appBMSApp_build.cmake	9b3c393615bffd4e
+339	399	8011586461011380	.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp	9c8670e88fa8ac52
+339	399	8011586461011380	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp	9c8670e88fa8ac52
+330	544	8011586462348755	.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp	633db09aeaa75ace
+330	544	8011586462348755	.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.aotstats	633db09aeaa75ace
+330	544	8011586462348755	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp	633db09aeaa75ace
+330	544	8011586462348755	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.aotstats	633db09aeaa75ace
+549	661	8011586462670998	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp.obj	68a91e0a8c0ab251
+544	2652	8011586462612491	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.obj	4357c856f712d1f4
+2652	3812	8011586483695034	appBMSApp.exe	fb2f87c0ad6189cb
+49	126	8011586676924736	.qt/appBMSApp_qml.txt	417c1212aaafb705
+49	126	8011586676924736	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/appBMSApp_qml.txt	417c1212aaafb705
+66	384	8011586679571139	.qt/qml_imports/appBMSApp_build.cmake	9b3c393615bffd4e
+66	384	8011586679571139	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/qml_imports/appBMSApp_build.cmake	9b3c393615bffd4e
+394	454	8011586680264472	.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp	9c8670e88fa8ac52
+394	454	8011586680264472	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp	9c8670e88fa8ac52
+385	598	8011586681563220	.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp	633db09aeaa75ace
+385	598	8011586681563220	.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.aotstats	633db09aeaa75ace
+385	598	8011586681563220	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp	633db09aeaa75ace
+385	598	8011586681563220	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.aotstats	633db09aeaa75ace
+603	702	8011586681895189	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp.obj	68a91e0a8c0ab251
+598	2690	8011586681846708	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.obj	4357c856f712d1f4
+2691	3850	8011586702773004	appBMSApp.exe	fb2f87c0ad6189cb
+42	106	8011586849629528	.qt/appBMSApp_qml.txt	417c1212aaafb705
+42	106	8011586849629528	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/appBMSApp_qml.txt	417c1212aaafb705
+52	326	8011586851866118	.qt/qml_imports/appBMSApp_build.cmake	9b3c393615bffd4e
+52	326	8011586851866118	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/qml_imports/appBMSApp_build.cmake	9b3c393615bffd4e
+336	399	8011586852520070	.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp	9c8670e88fa8ac52
+336	399	8011586852520070	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp	9c8670e88fa8ac52
+326	533	8011586853838304	.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp	633db09aeaa75ace
+326	533	8011586853838304	.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.aotstats	633db09aeaa75ace
+326	533	8011586853838304	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp	633db09aeaa75ace
+326	533	8011586853838304	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.aotstats	633db09aeaa75ace
+538	633	8011586854131172	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp.obj	68a91e0a8c0ab251
+534	2735	8011586854082807	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.obj	4357c856f712d1f4
+2735	3893	8011586876102451	appBMSApp.exe	fb2f87c0ad6189cb
+30	247	8011589314744738	.qt/appBMSApp_qml.txt	417c1212aaafb705
+30	247	8011589314744738	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/appBMSApp_qml.txt	417c1212aaafb705
+42	416	8011589316453616	.qt/qml_imports/appBMSApp_build.cmake	9b3c393615bffd4e
+42	416	8011589316453616	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/qml_imports/appBMSApp_build.cmake	9b3c393615bffd4e
+424	492	8011589317156699	.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp	9c8670e88fa8ac52
+424	492	8011589317156699	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp	9c8670e88fa8ac52
+416	627	8011589318455446	.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp	633db09aeaa75ace
+416	627	8011589318455446	.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.aotstats	633db09aeaa75ace
+416	627	8011589318455446	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp	633db09aeaa75ace
+416	627	8011589318455446	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.aotstats	633db09aeaa75ace
+633	774	8011589318778171	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp.obj	68a91e0a8c0ab251
+627	2772	8011589318719505	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.obj	4357c856f712d1f4
+2772	4155	8011589340172796	appBMSApp.exe	fb2f87c0ad6189cb
+29	105	8011590167728044	.qt/appBMSApp_qml.txt	417c1212aaafb705
+29	105	8011590167728044	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/appBMSApp_qml.txt	417c1212aaafb705
+39	301	8011590169739477	.qt/qml_imports/appBMSApp_build.cmake	9b3c393615bffd4e
+39	301	8011590169739477	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/qml_imports/appBMSApp_build.cmake	9b3c393615bffd4e
+310	371	8011590170413422	.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp	9c8670e88fa8ac52
+310	371	8011590170413422	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp	9c8670e88fa8ac52
+301	500	8011590171663202	.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp	633db09aeaa75ace
+301	500	8011590171663202	.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.aotstats	633db09aeaa75ace
+301	500	8011590171663202	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp	633db09aeaa75ace
+301	500	8011590171663202	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.aotstats	633db09aeaa75ace
+504	603	8011590171926914	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp.obj	68a91e0a8c0ab251
+500	2526	8011590171888246	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.obj	4357c856f712d1f4
+2526	3666	8011590192150212	appBMSApp.exe	fb2f87c0ad6189cb
+29	106	8011590820641848	.qt/appBMSApp_qml.txt	417c1212aaafb705
+29	106	8011590820641848	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/appBMSApp_qml.txt	417c1212aaafb705
+39	311	8011590822780712	.qt/qml_imports/appBMSApp_build.cmake	9b3c393615bffd4e
+39	311	8011590822780712	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/qml_imports/appBMSApp_build.cmake	9b3c393615bffd4e
+320	378	8011590823454064	.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp	9c8670e88fa8ac52
+320	378	8011590823454064	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp	9c8670e88fa8ac52
+312	514	8011590824743044	.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp	633db09aeaa75ace
+312	514	8011590824743044	.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.aotstats	633db09aeaa75ace
+312	514	8011590824743044	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp	633db09aeaa75ace
+312	514	8011590824743044	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.aotstats	633db09aeaa75ace
+519	614	8011590825016572	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp.obj	68a91e0a8c0ab251
+514	2540	8011590824968089	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.obj	4357c856f712d1f4
+2540	3663	8011590845220334	appBMSApp.exe	fb2f87c0ad6189cb
+48	142	8011591622170876	.qt/appBMSApp_qml.txt	417c1212aaafb705
+48	142	8011591622170876	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/appBMSApp_qml.txt	417c1212aaafb705
+64	352	8011591624329318	.qt/qml_imports/appBMSApp_build.cmake	9b3c393615bffd4e
+64	352	8011591624329318	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/qml_imports/appBMSApp_build.cmake	9b3c393615bffd4e
+360	428	8011591625031869	.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp	9c8670e88fa8ac52
+360	428	8011591625031869	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp	9c8670e88fa8ac52
+352	566	8011591626350664	.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp	633db09aeaa75ace
+352	566	8011591626350664	.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.aotstats	633db09aeaa75ace
+352	566	8011591626350664	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp	633db09aeaa75ace
+352	566	8011591626350664	F:/Document/Qt Practical/BMSApp/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.aotstats	633db09aeaa75ace
+571	673	8011591626672485	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.qt/rcc/qrc_appBMSApp_raw_qml_0.cpp.obj	68a91e0a8c0ab251
+566	2690	8011591626623561	CMakeFiles/appBMSApp.dir/build/Desktop_Qt_6_8_3_MinGW_64_bit-Debug/.rcc/qmlcache/appBMSApp_qml/components/AppShell_qml.cpp.obj	4357c856f712d1f4
+2690	3922	8011591647862554	appBMSApp.exe	fb2f87c0ad6189cb
