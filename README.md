@@ -1,4 +1,4 @@
-# BMSApp - Complete Documentation with @brief Comments
+# BMSApp Documentation 
 
 ## Project Overview
 
@@ -12,16 +12,16 @@
 │  (Main.qml, Views, Components - DashboardView, etc.)    │
 └────────────────────┬────────────────────────────────────┘
                      │
-┌─────────────────────▼────────────────────────────────────┐
-│            BmsViewModel (MVVM Pattern)                   │
+┌─────────────────────▼───────────────────────────────────┐
+│            BmsViewModel (MVVM Pattern)                  │
 │   - Q_PROPERTY bindings for QML data binding            │
 │   - Q_INVOKABLE slots for user actions                  │
 │   - Converts BmsManager data to QVariantMap             │
 └────────────────────┬────────────────────────────────────┘
                      │
-┌─────────────────────▼────────────────────────────────────┐
-│                  BmsManager (Core Engine)                │
-│   - Serial communication orchestration                   │
+┌─────────────────────▼───────────────────────────────────┐
+│                  BmsManager (Core Engine)               │
+│   - Serial communication orchestration                  │
 │   - Auto-polling with configurable interval             │
 │   - GPIO fan speed control integration                  │
 │   - Comprehensive error handling                        │
@@ -33,7 +33,7 @@
     │Reader     │    │             │   │                 │
     │(UART)     │    │(Parsing)    │   │(PWM/Digital)    │
     └────┬──────┘    └─────────────┘   └────────┬────────┘
-         │                                       │
+         │                                      │
     ┌────▼──────────────────┐        ┌──────────▼──────┐
     │ Serial Port (UART)    │        │ Python Process  │
     │ /dev/ttyUSB0 (9600)   │        │gpio_fan_ctrller │
@@ -424,22 +424,6 @@ BMSApp/
 └── assets/                      // Images, fonts, etc.
 ```
 
-## Documentation Files
-
-- **SETUP_PIGPIO.md** - Pigpio daemon setup guide
-- **GPIO_FIX_SUMMARY.md** - GPIO implementation details
-- **QUICKSTART_FAN_CONTROL.md** - Fan control quick start
-- **GPIO_FAN_CONTROL_GUIDE.md** - Comprehensive fan control guide
-- **SETUP_RPI.md** - Raspberry Pi setup instructions
-
-## Contributing
-
-When adding new features, ensure:
-1. Add `@brief` comments to all classes and functions
-2. Use English for all documentation
-3. Update this file with new module descriptions
-4. Follow existing code style and patterns
-
 ## Contact & Support
 
-For issues or questions, refer to the documentation files or code comments with `@brief` sections.
+@author: haidinh-me
