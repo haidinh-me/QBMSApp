@@ -110,6 +110,7 @@ bool BmsManager::sendBasicInfoRequest()
     }
 
     m_waitingForResponse = true;
+    m_pendingRequest = PendingRequest::BasicInfo;
     const int timeoutMs = qMax(1000, m_pollingIntervalMs * 2);
     m_responseTimeoutTimer.start(timeoutMs);
     return true;
@@ -123,20 +124,16 @@ bool BmsManager::sendCellVoltagesRequest()
         return false;
     }
 
+    m_waitingForResponse = true;
+    m_pendingRequest = PendingRequest::CellVoltages;
+    const int timeoutMs = qMax(1000, m_pollingIntervalMs * 2);
+    m_responseTimeoutTimer.start(timeoutMs);
     return true;
 }
 
 bool BmsManager::sendTelemetryRequests()
 {
-    if (!sendBasicInfoRequest()) {
-        return false;
-    }
-
-    if (!sendCellVoltagesRequest()) {
-        return false;
-    }
-
-    return true;
+    return sendBasicInfoRequest();
 }
 
 void BmsManager::disconnectSerial()
@@ -165,6 +162,10 @@ void BmsManager::requestBasicInfo()
         return;
     }
 
+    if (m_waitingForResponse) {
+        return;
+    }
+
     if (!sendTelemetryRequests()) {
         if (m_shouldStayConnected) {
             scheduleReconnect(QStringLiteral("Write failed, reconnecting..."));
@@ -190,6 +191,7 @@ void BmsManager::handleResponseTimeout()
     }
 
     m_waitingForResponse = false;
+    m_pendingRequest = PendingRequest::None;
     setConnectionState(ConnectionState::Degraded);
     setError(ErrorCode::Timeout, QStringLiteral("No response from BMS in time."));
     setStatusMessage(QStringLiteral("Response timeout, waiting for next poll."));
@@ -235,6 +237,7 @@ void BmsManager::clearReconnect()
 void BmsManager::handleFrame(const QByteArray &frame)
 {
     m_waitingForResponse = false;
+    m_pendingRequest = PendingRequest::None;
     m_responseTimeoutTimer.stop();
 
     const QString frameHex = QString::fromLatin1(frame.toHex(' ')).toUpper();
@@ -270,6 +273,14 @@ void BmsManager::handleFrame(const QByteArray &frame)
 
         if (m_fanController && m_fanController->isInitialized()) {
             m_fanController->updateTemperature(m_snapshot.temperatureC);
+        }
+
+        if (m_reader.isConnected() && m_shouldStayConnected) {
+            QTimer::singleShot(m_interFrameDelayMs, this, [this]() {
+                if (m_reader.isConnected() && m_shouldStayConnected) {
+                    sendCellVoltagesRequest();
+                }
+            });
         }
     } else if (parsed.frameType == JbdProtocol::FrameType::CellVoltages) {
         m_snapshot.cells = parsed.snapshot.cells;

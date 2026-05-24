@@ -6,27 +6,29 @@ Item {
 
 	property int cellIndex: 1
 	property real voltage: 3.2
-	property real minVoltage: 2.0
-	property real maxVoltage: 3.65
+	property real displayMinVoltage: 2.8
+	property real displayMaxVoltage: 3.65
+	property bool isMinCell: false
+	property bool isMaxCell: false
 	property real uiScaler: parent.width/900
 
 	readonly property real level: {
-		const range = maxVoltage - minVoltage
+		const range = displayMaxVoltage - displayMinVoltage
 		if (range <= 0) {
 			return 0
 		}
-		const ratio = (voltage - minVoltage) / range
+		const ratio = (voltage - displayMinVoltage) / range
 		return Math.max(0, Math.min(1, ratio))
 	}
 
 	readonly property color cellColor: {
-		if (level < 0.2) {
-			return "#f04444"
+		if (isMaxCell) {
+			return "#0b6b2d"
 		}
-		if (level < 0.4) {
-			return "#f59e0b"
+		if (isMinCell) {
+			return "#f2d445"
 		}
-		return "#45f06f"
+		return "#6fd9a3"
 	}
 
 	implicitWidth: 68

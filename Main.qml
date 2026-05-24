@@ -9,8 +9,8 @@ Window {
     color: "#0f1115"
     title: qsTr("BMS Application")
 
-    flags: Qt.FramelessWindowHint
-    visibility: Window.FullScreen
+    //flags: Qt.FramelessWindowHint
+    //visibility: Window.FullScreen
 
     AppShell {
         anchors.fill: parent

@@ -52,7 +52,6 @@ JbdProtocol::ParseResult JbdProtocol::parseBasicInfoPayload(const QByteArray &fr
     ParseResult result;
 
     const quint8 dataLength = static_cast<quint8>(frame[3]);
-    // Độ dài tối thiểu cho Basic Info là 23 byte (nếu không có NTC)
     if (dataLength < 23) {
         result.errorCode = ParseErrorCode::PayloadTooShort;
         result.errorMessage = QStringLiteral("Basic info payload too short.");
@@ -61,7 +60,10 @@ JbdProtocol::ParseResult JbdProtocol::parseBasicInfoPayload(const QByteArray &fr
 
     const quint8 *payload = reinterpret_cast<const quint8 *>(frame.constData()) + 4;
 
-    // Map chính xác theo tài liệu JBD General Protocol V4
+    // for(int i = 0; i<frame.size(); ++i) {
+    //     qDebug("Frame Basic Infor %d: 0x%02X", i, static_cast<quint8>(frame[i]));
+    // }
+
     const quint16 rawVoltage = (static_cast<quint16>(payload[0]) << 8) | payload[1];
     const qint16 rawCurrent = static_cast<qint16>((static_cast<quint16>(payload[2]) << 8) | payload[3]);
     const quint16 rawRemainCapacity = (static_cast<quint16>(payload[4]) << 8) | payload[5];
@@ -83,7 +85,6 @@ JbdProtocol::ParseResult JbdProtocol::parseBasicInfoPayload(const QByteArray &fr
         result.snapshot.alarms.push_back(QStringLiteral("Protection active"));
     }
 
-    // Đọc cảm biến nhiệt đầu tiên (nếu có)
     if (ntcCount > 0 && dataLength >= 25) {
         const quint16 rawTemp = (static_cast<quint16>(payload[23]) << 8) | payload[24];
         result.snapshot.temperatureC = (rawTemp - 2731) * 0.1; // Đơn vị 0.1K tuyệt đối
@@ -111,6 +112,11 @@ JbdProtocol::ParseResult JbdProtocol::parseCellVoltagesPayload(const QByteArray 
 
     const quint8 *payload = reinterpret_cast<const quint8 *>(frame.constData()) + 4;
     const int cellCount = dataLength / 2;
+
+    // for(int i = 0; i<frame.size(); ++i) {
+    //     qDebug("Frame Cell Infor %d: 0x%02X", i, static_cast<quint8>(frame[i]));
+    // }
+    
     result.snapshot.cells.reserve(cellCount);
     for (int i = 0; i < cellCount; ++i) {
         const quint16 rawMv = (static_cast<quint16>(payload[i * 2]) << 8) | payload[i * 2 + 1];

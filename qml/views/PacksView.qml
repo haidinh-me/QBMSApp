@@ -22,6 +22,34 @@ Item {
         return packVoltage / cellCount
     }
 
+    readonly property real minCellVoltage: {
+        if (cells.length === 0) {
+            return baseCellVoltage - 0.02
+        }
+        let minValue = Number(cells[0])
+        for (let i = 1; i < cells.length; i++) {
+            const value = Number(cells[i])
+            if (value < minValue) {
+                minValue = value
+            }
+        }
+        return minValue
+    }
+
+    readonly property real maxCellVoltage: {
+        if (cells.length === 0) {
+            return baseCellVoltage + 0.02
+        }
+        let maxValue = Number(cells[0])
+        for (let i = 1; i < cells.length; i++) {
+            const value = Number(cells[i])
+            if (value > maxValue) {
+                maxValue = value
+            }
+        }
+        return maxValue
+    }
+
     function cellVoltageFor(index) {
         if (cells.length > index) {
             return Number(cells[index])
@@ -124,6 +152,10 @@ Item {
                             Layout.preferredHeight: 110 * root.uiScale
                             cellIndex: index + 1
                             voltage: root.cellVoltageFor(index)
+                            displayMinVoltage: 2.8
+                            displayMaxVoltage: 3.65
+                            isMinCell: root.cellVoltageFor(index) === root.minCellVoltage
+                            isMaxCell: root.cellVoltageFor(index) === root.maxCellVoltage
                         }
                     }
                 }

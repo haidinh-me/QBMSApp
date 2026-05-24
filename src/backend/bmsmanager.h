@@ -110,6 +110,12 @@ private slots:
     void handleReconnectTimeout();
 
 private:
+    enum class PendingRequest {
+        None = 0,
+        BasicInfo,
+        CellVoltages
+    };
+
     bool attemptConnect();
     bool sendBasicInfoRequest();
     bool sendCellVoltagesRequest();
@@ -129,10 +135,12 @@ private:
     bool m_connected = false;
     bool m_shouldStayConnected = false;
     bool m_waitingForResponse = false;
+    PendingRequest m_pendingRequest = PendingRequest::None;
 
     QString m_portName;
     int m_baudRate = 9600;
     int m_pollingIntervalMs = 1000;
+    int m_interFrameDelayMs = 200;
 
     ConnectionState m_connectionState = ConnectionState::Idle;
     ErrorCode m_errorCode = ErrorCode::None;

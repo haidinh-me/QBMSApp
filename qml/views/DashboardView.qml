@@ -21,16 +21,6 @@ Item {
 
     readonly property real uiScale: parent.width/850
 
-    readonly property real averageCellVoltage: {
-        if (cells.length > 0) {
-            let sum = 0
-            for (let i = 0; i < cells.length; ++i) {
-                sum += Number(cells[i])
-            }
-            return sum / cells.length
-        }
-        return packVoltage > 0 ? packVoltage / 16.0 : 3.64
-    }
     readonly property real maxCellVoltage: {
         if (cells.length > 0) {
             let maxV = Number(cells[0])
@@ -42,7 +32,7 @@ Item {
             }
             return maxV
         }
-        return averageCellVoltage + 0.04
+        return (packVoltage > 0 ? packVoltage / 16.0 : 3.64) + 0.04
     }
     readonly property real minCellVoltage: {
         if (cells.length > 0) {
@@ -55,7 +45,7 @@ Item {
             }
             return minV
         }
-        return averageCellVoltage - 0.04
+        return (packVoltage > 0 ? packVoltage / 16.0 : 3.64) - 0.04
     }
     readonly property real packPowerKw: Math.abs(packVoltage * packCurrent) / 1000.0
 
@@ -191,14 +181,15 @@ Item {
                                     Layout.fillWidth: true
                                     fontScale: root.uiScale
                                     labelText: "Sạc"
-                                    valueText: root.packCurrent >= 0 ? "ON" : "OFF"
-                                    valueColor: root.packCurrent >= 0 ? "#40f067" : "#9aa3ad"
+                                    valueText: root.packCurrent > 0 ? "ON" : "OFF"
+                                    valueColor: root.packCurrent > 0 ? "#40f067" : "#9aa3ad"
                                 }
 
                                 InfoPair {
                                     Layout.fillWidth: true
                                     fontScale: root.uiScale
                                     labelText: "Min.Cell"
+                                    valueColor: "#f2d445"
                                     valueText: Number(root.minCellVoltage).toFixed(3) + "V"
                                 }
                                 InfoPair {
@@ -211,8 +202,8 @@ Item {
                                     Layout.fillWidth: true
                                     fontScale: root.uiScale
                                     labelText: "Xả"
-                                    valueText: root.packCurrent <= 0 ? "ON" : "OFF"
-                                    valueColor: root.packCurrent <= 0 ? "#40f067" : "#9aa3ad"
+                                    valueText: root.packCurrent < 0 ? "ON" : "OFF"
+                                    valueColor: root.packCurrent < 0 ? "#40f067" : "#9aa3ad"
                                 }
 
                                 InfoPair {
